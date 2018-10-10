@@ -1,0 +1,22 @@
+{
+    "name": "myangular",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "webpack": "./node_modules/webpack-cli/bin/cli.js",
+        "webpack-dev-server": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    },
+    "scripts": {
+        "start": "webpack-dev-server",
+        "dev": "webpack-dev-server",
+        "build": "webpack"
+    },
+    "author": "yongzhe.han",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.19.1",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.9"
+    }
+}
